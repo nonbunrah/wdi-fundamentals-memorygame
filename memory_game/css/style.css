@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	margin: 0;
+	text-transform: uppercase;
 }
 
 h1 {
@@ -9,19 +10,34 @@ h1 {
 	margin: 0;
 }
 
+h2 {
+	font-family: "Raleway", sans-serif;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
 p {
 	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+	text-transform: none;
 }
 
 header {
 	background-color: #F15B31;
-	color: #FFFFFF
+	color: #FFFFFF;
 	padding: 30px 20px;
 }
 
 nav {
-	background-color: #00A6B3;
+	font-family: "Raleway", sans-serif;
 	color: #FFFFFF;
+	letter-spacing: 1px;
+	/*font-weight: 600;*/
+	font-size: 18px;
+	background-color: #00A6B3;
 	padding: 20px 0;
 	border-bottom: 2px solid transparent;
 }
@@ -35,13 +51,13 @@ img {
 	margin: 40px 8px 0 8px;
 }
 
-a {
+a {	
+	color: #FFFFFF;
+	text-decoration: none;
 	margin: 0 20px;
-	color: white;
 }
 
 footer {
-	text-transform: uppercase;
 	padding: 0 20px;
 	background-color: #0D2C40;
 	color: white;
@@ -51,10 +67,16 @@ footer {
 }
 
 .copyright {
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
 	float: left;
 }
 
 .message {
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
 	float: right;
 }
 
@@ -73,5 +95,5 @@ font-size: 0;
 }
 
 a:hover {
-	border-color: white;
+	border-bottom: 1px solid white;
 }
